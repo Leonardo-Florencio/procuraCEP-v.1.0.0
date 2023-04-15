@@ -102,3 +102,16 @@ p {
     }
     
 }
+
+@media screen and (min-width: 1600px)  {
+    
+    .fomrularioDeResposta {
+        padding: 5%;
+        padding-left: 7%;
+    }
+    
+    p {
+        padding: 0.2%;
+        font-size: larger;
+    }
+}
