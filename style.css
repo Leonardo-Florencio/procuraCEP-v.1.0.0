@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color:#194B32 ;
+    color: #D0E4AE;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    font-weight: 600;
+    max-height: 30%;
+    max-width: 100%;
+    padding: 7%;
+}
+
+.formulario {
+    background-color: #D0E4AE;
+    display: flex;
+    flex-direction: column;
+    height:85vh;
+}
+
+.formularioDePesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10%;
+}
+
+.campoDePesquisa {
+    border: none;
+    padding: 1.5%;
+}
+
+.botao {
+    border: #194B32;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+}
+
+.botao:hover {
+    border: black;
+    background-color: darkgray;
+}
+
+.fomrularioDeResposta {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+p {
+    padding: 3%;
+}
+
+.footer {
+    background-color:#194B32 ;
+    color: #D0E4AE;
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+@media screen and (min-width: 768px)  {
+
+    .cabecalho {
+        padding: 2%;
+    }
+    
+    .formularioDePesquisa {
+        margin-top: 3%;
+        padding: 2%;
+        justify-content: center;
+        gap: 2%;
+    }
+
+    .campoDePesquisa {
+        padding: 1%;
+        width: 40%;
+    }
+
+    .fomrularioDeResposta {
+        padding: 1%;
+        padding-left: 7%;
+    }
+
+    p {
+        padding: 0.2%;
+        font-size: large;
+    }
+
+    .footer {
+        height: 5vh;
+    }
+    
+}
