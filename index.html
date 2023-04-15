@@ -13,8 +13,9 @@
 
     <div class="formulario">
         <div class="formularioDePesquisa">
-            <input type="number" name="campoDePesquisa" class="campoDePesquisa" id="campoDePesquisa" maxlength="8">
-            <input type="button" class="botao" value="Pesquisar" onclick="consultaEndereco()">
+            <label><strong>CEP: </strong></label>
+            <input type="text" name="campoDePesquisa" class="campoDePesquisa" id="campoDePesquisa" maxlength="8" minlength="8" placeholder="Indique o CEP apenas com números">
+            <input type="submit" class="botao" id="botao" value="Pesquisar" onclick="consultaEndereco()">
         </div>
         <div class="formularioDeResposta" id="formularioDeResposta">
             

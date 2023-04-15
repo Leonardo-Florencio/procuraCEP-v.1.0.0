@@ -25,6 +25,7 @@ body {
 }
 
 .formularioDePesquisa {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -41,6 +42,7 @@ body {
     border-radius: 10%;
     background-color: white;
     color: black;
+    padding: 1%;
 }
 
 .botao:hover {
