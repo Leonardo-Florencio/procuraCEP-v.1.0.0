@@ -13,14 +13,11 @@
 
     <div class="formulario">
         <div class="formularioDePesquisa">
-            <input type="text" name="campoDePesquisa" class="campoDePesquisa" id="campoDePesquisa">
-            <input type="button" class="botao" value="Pesquisar">
+            <input type="number" name="campoDePesquisa" class="campoDePesquisa" id="campoDePesquisa" maxlength="8">
+            <input type="button" class="botao" value="Pesquisar" onclick="consultaEndereco()">
         </div>
-        <div class="fomrularioDeResposta">
-            <p class="logradouro">Rua: </p>
-            <p class="bairro">Bairro: </p>
-            <p class="cidade">Cidade: </p>
-            <p class="estado">Estado: </p>
+        <div class="formularioDeResposta" id="formularioDeResposta">
+            
         </div>
     </div>
     <footer class="footer">Feito por Leonardo Florêncio</footer>

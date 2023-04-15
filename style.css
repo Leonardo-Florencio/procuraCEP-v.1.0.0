@@ -46,9 +46,10 @@ body {
 .botao:hover {
     border: black;
     background-color: darkgray;
+    cursor: pointer;
 }
 
-.fomrularioDeResposta {
+.formularioDeResposta {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -87,7 +88,7 @@ p {
         width: 40%;
     }
 
-    .fomrularioDeResposta {
+    .formularioDeResposta {
         padding: 1%;
         padding-left: 7%;
     }
