@@ -1,3 +1,12 @@
+//Submit do formulário através da tecla Enter
+document.getElementById('campoDePesquisa').addEventListener('keyup', function(event) {
+    if (event.code === 'Enter'){
+        event.preventDefault();
+        consultaCEP();
+    }
+})
+
+//Função de procura e validação
 function consultaCEP () {
         let CEPDigitado = document.querySelector('#campoDePesquisa').value;
 
