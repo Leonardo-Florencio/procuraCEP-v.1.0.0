@@ -18,7 +18,7 @@
 <p>Caso o CEP não exista ou não tenha sido preenchido corretamente, a aplicação retornará um erro especificando a dificuldade encontrada.</p>
 
 <h2>Acesso à aplicação:</h2>
-<p>O link de acesso para a aplicação é o seguinte: https://leonardo-florencio.github.io/ProcuraCEP/</p>
+<p>O link de acesso para a aplicação é o seguinte: https://leonardo-florencio.github.io/procuraCEP-v.1.0.0/</p>
 
 <h2>Tecnologias utilizadas:</h2>
 <img src="https://img.shields.io/badge/%23-Javascript-yellow">
