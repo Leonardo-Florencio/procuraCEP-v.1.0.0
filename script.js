@@ -3,8 +3,6 @@ function consultaCEP () {
 
         let resultado = document.querySelector('#formularioDeResposta');
 
-        console.log(CEPDigitado.length);
-
         if (CEPDigitado.length < 8) {
             resultado.innerHTML = "O CEP deve conter 8 dígitos"
         } else {
