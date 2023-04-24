@@ -1,5 +1,20 @@
+//Máscara do campo de CEP
+const input = document.querySelector('#campoDePesquisa')
+
+input.addEventListener("keyup", formatarCep);
+
+function formatarCep(evento){
+
+    let CEPComMascara= evento.target.value.replace(/\D/g,"")                
+    
+    CEPComMascara=CEPComMascara.replace(/^(\d{5})(\d)/,"$1-$2") 
+    
+    evento.target.value = CEPComMascara;
+    
+    }
+
 //Submit do formulário através da tecla Enter
-document.getElementById('campoDePesquisa').addEventListener('keyup', function(event) {
+document.addEventListener('keyup', function(event) {
     if (event.code === 'Enter'){
         event.preventDefault();
         consultaCEP();
