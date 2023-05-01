@@ -14,7 +14,7 @@ body {
     font-weight: 600;
     max-height: 30%;
     max-width: 100%;
-    padding: 7%;
+    padding: 5%;
 }
 
 .formulario {
@@ -55,12 +55,19 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-top: 5%;
     padding: 5%;
 }
 
 p {
     padding: 3%;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 .footer {
@@ -75,7 +82,7 @@ p {
 @media screen and (min-width: 768px)  {
 
     .cabecalho {
-        padding: 2%;
+        padding: 1.05%;
     }
     
     .formularioDePesquisa {
@@ -107,7 +114,11 @@ p {
 }
 
 @media screen and (min-width: 1600px)  {
-    
+    .cabecalho {
+        padding: 1.39%;
+    }
+
+
     .fomrularioDeResposta {
         padding: 5%;
         padding-left: 7%;

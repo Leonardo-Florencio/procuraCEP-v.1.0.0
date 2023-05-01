@@ -23,6 +23,7 @@ document.addEventListener('keyup', function(event) {
 
 //Função de procura e validação
 function consultaCEP () {
+
         let CEPDigitado = document.querySelector('#campoDePesquisa').value;
 
         let resultado = document.querySelector('#formularioDeResposta');
